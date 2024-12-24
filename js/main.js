@@ -1,17 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const audioPlayer = document.getElementById("audioPlayer");
-
-  // Phát âm thanh tự động khi trang tải xong
-  audioPlayer
-    .play()
-    .then(() => {
-      // Bật tiếng lại sau khi phát
-      audioPlayer.muted = false;
-    })
-    .catch((error) => {
-      console.error("Playback error: ", error);
-    });
-});
 var boxgift = document.querySelector(".box-gift");
 var Close = document.querySelector(".fa-xmark");
 var boxContent = document.querySelector(".box-content");

@@ -122,7 +122,7 @@ body {
   height: 10px;
   background: #fff;
   border-radius: 50%;
-  box-shadow: 0 0 10px #fff, 0 0 20px #fff;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
   animation: snows 50s linear infinite;
   animation-duration: calc(100s / var(--i));
 }
@@ -439,6 +439,7 @@ section .box-santa .santa-container .box-content .content1 .content-text {
   align-items: center;
   flex-direction: column;
   overflow: hidden;
+  top: 7%;
 }
 section .box-santa .santa-container .box-content .content1 .content-text .text1 {
   width: 200px;
@@ -448,6 +449,7 @@ section .box-santa .santa-container .box-content .content1 .content-text .text1 
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin-bottom: 32px;
 }
 section .box-santa .santa-container .box-content .content1 .content-text .text1 p {
   font-size: 30px;
@@ -456,10 +458,11 @@ section .box-santa .santa-container .box-content .content1 .content-text .text1 
   font-weight: bold;
 }
 section .box-santa .santa-container .box-content .content1 .content-text .text1 img {
-  width: 50px;
-  height: 50px;
+  width: 69px;
+  height: 69px;
   border-radius: 50%;
   object-fit: cover;
+  margin-left: 10px;
 }
 section .box-santa .santa-container .box-content .content1 .content-text .text2 {
   display: flex;
