@@ -20,16 +20,16 @@ const audioPlayer = document.getElementById("audioPlayer");
 const playButton = document.getElementById("playButton");
 
 // Bắt sự kiện click để phát âm thanh
-// boxgift.addEventListener("click", () => {
-//   audioPlayer
-//     .play()
-//     .then(() => {
-//       console.log("Audio is playing");
-//     })
-//     .catch((error) => {
-//       console.error("Playback error: ", error);
-//     });
-// });
+boxgift.addEventListener("click", () => {
+  audioPlayer
+    .play()
+    .then(() => {
+      console.log("Audio is playing");
+    })
+    .catch((error) => {
+      console.error("Playback error: ", error);
+    });
+});
 boxgift.onclick = function () {
   boxgift.classList.toggle("active");
   boxContent.classList.add("active");
